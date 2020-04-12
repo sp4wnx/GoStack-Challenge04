@@ -1,0 +1,22 @@
+GET http://localhost:3333/repositories
+
+###
+
+POST http://localhost:3333/repositories
+Content-Type: application/json
+
+{
+  "title": "Mobile DickZaum XX",
+  "url": "DevRR",
+  "techs": ["VueJS", "PHP"]
+}
+
+###
+POST http://localhost:3333/repositories
+Content-Type: application/json
+
+{
+  "title": "PHP Developer",
+  "url": "DevRR",
+  "techs": ["VueJS", "PHP", "ReactJS"]
+}
